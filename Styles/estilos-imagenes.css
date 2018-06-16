@@ -1,0 +1,112 @@
+
+.manhattan-image{
+	width: 600.9px;
+	margin-top: -20px;
+}
+/*titulo of box*/
+.title-n{
+text-align: center;
+font-family: sans-serif;
+margin-top: 0;
+margin-bottom: 19px;
+background-image: linear-gradient(to right,
+	white,purple 30%,red);
+color: white;
+text-shadow: 1px 1px 1px white;
+border: none;
+padding: 4px;
+}
+
+.section-n{
+	width: 600px;
+	height: 480px;
+	margin: 100px auto ;
+	display: block;
+	background-image: linear-gradient(to left ,#7988e7 , #f99696, white);
+}
+.paragraph-n{
+	font-family: verdana;
+	color: #3b3b3b;
+	text-align: center;
+}
+h1{margin: 0;}
+/*banner */
+.banner-n{
+	padding: 1px;
+	width: 100%;
+	margin-top: 21px;
+	background-image: linear-gradient(to right, purple,white,red);
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 12px;
+}
+.title-go{
+	color: purple;
+	font-family: monospace;
+	font-size: 23px;
+}
+
+/* -----------------------------------------------------------line division------------------*/
+.rd-image{
+	width: 600.9px;
+	margin-top: -20px;
+}
+/*titulo of box*/
+.title-r{
+text-align: center;
+font-family: sans-serif;
+margin-top: 0;
+margin-bottom: 19px;
+background-image: linear-gradient(to right,
+	white,red 30%,blue);
+color: white;
+text-shadow: 1px 1px 1px white;
+border: none;
+padding: 4px;
+}
+
+.section-r{
+	width: 600px;
+	height: 480px;
+	margin: 100px auto ;
+	display: block;
+	background-image: linear-gradient(to left ,#7988e7 , #f99696, white);
+}
+.paragraph-r{
+	font-family: verdana;
+	color: #3b3b3b;
+	text-align: center;
+}
+h1{margin: 0;}
+/*banner */
+.banner-r{
+	padding: 1px;
+	width: 100%;
+	margin-top: 21px;
+	background-image: linear-gradient(to right, purple,white,red);
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 12px;
+}
+.title-gor{
+	color: purple;
+	font-family: sans-serif;
+	font-size: 23px;
+
+}
+i{
+	vertical-align: middle;
+}
+[class^="banner"] ,[class^="section"] , [class^="title"]{
+	border-radius: 3.5px;
+}
+.fa-clock{
+	float: right;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	min-height: 200vh;
+	padding: 0;
+
+}
+*{
+	box-sizing: border-box;
+}
+
+.image-head{
+	width: 100%;
+	margin-bottom: -15px;
+}
+li{
+	list-style: none;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	border-radius:4px;
+	display: inline-block;
+	/*border: 1px solid orange;*/
+
+}
+
+li:nth-child(1){
+	margin-left: -40px;
+}
+.list-item li a:nth-child(1) {
+	color:white;
+	text-decoration-line: none;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: 800;
+	font-style: oblique;
+}
+.list-item li:first-child{
+	background-image: linear-gradient(
+		to right, white, blue, red);
+	color: white;
+	border: none;
+/*box-shadow: -1px 1px 8px 0.3px blue;*/
+}
+.list-item li:hover:first-child {
+	background-image: linear-gradient(
+		to right, red, white, blue);
+	
+}
+.list-item li:hover:first-child a{
+	color: purple;
+}
+.list-item li a:nth-child(2) {
+	color:white;
+	text-decoration-line: none;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: 800;
+	font-style: oblique;
+	white-space: pre;
+}
+.list-item li:nth-child(2) {
+	/*box-shadow: -1px 1px 8px 0.3px blue;*/
+	background-image: radial-gradient(circle, purple,red);
+
+}
+.list-item li:nth-child(3) {
+	/*box-shadow: -1px 1px 8px 0.3px blue;*/
+	background-image: radial-gradient(circle,
+	 blue,red,white);
+}.list-item li:nth-child(4) {
+	/*box-shadow: -1px 1px 8px 0.3px blue;*/
+	background-image: linear-gradient(to left,
+	 yellow,black,green);
+
+}
